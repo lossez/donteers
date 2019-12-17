@@ -1,0 +1,134 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.footer-text
+{
+  line-height: 2rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+ 
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.background-parallax{
+  background-size: cover;
+}
+.navbar
+{
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.telur-asin
+{
+  background-color: #2CA5F7;
+}
+.telur-asin-matang
+{
+  background-color: #70A6F1;
+}
+.parallax-background{
+   margin-top: -70px;
+}
+.brand-logo-navbar
+{
+   background-image: url('DONTEERS.png');
+}
+.scl-btn {
+  padding: 10px;
+  font-size: 25px;
+  width: 47px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+/* Hover Effect */
+.scl-btn:hover {
+  opacity: 0.8;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Round buttons */
+.scl-crcl {
+  border-radius: 50%;
+}
+
+/* Round Corners */
+.scl-rnd {
+  border-radius: 5px;
+}
+
+/* Brand Colors */
+.fa-facebook-f {
+  background: #3b5998;
+}
+.fa-twitter {
+  background: #55acee;
+}
+.fa-youtube {
+  background: #bb0000;
+}
+
+.fa-instagram {
+  background: #125688;
+}
