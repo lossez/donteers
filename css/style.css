@@ -132,3 +132,13 @@ footer.page-footer {
 .fa-instagram {
   background: #125688;
 }
+.underline {
+  border-bottom: 1px solid #2CA5F7;
+  border-width: medium;
+  margin: 10px;
+  margin-bottom: 17px;
+}
+audio
+{
+  display: none;
+}
